@@ -134,3 +134,17 @@ a:hover {
   background-color: white;
   padding-left: 5rem;
 }
+
+.form-container {
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.form-row {
+  flex-direction: column;
+}
