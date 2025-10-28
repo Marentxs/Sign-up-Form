@@ -13,19 +13,75 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="sidebar">
-      <img
-        src="./images/diet.jpeg"
-        alt="image of healthy food"
-        class="background"
-      />
-      <div class="overlay">
+    <div class="container">
+      <div class="sidebar">
         <img
-          src="./images/odin-lined.png"
-          alt="logo of TheOdinProject"
-          class="logo"
+          src="./images/diet.jpeg"
+          alt="image of healthy food"
+          class="background"
         />
-        <h1>Meals</h1>
+        <div class="overlay">
+          <img
+            src="./images/odin-lined.png"
+            alt="logo of TheOdinProject"
+            class="logo"
+          />
+          <h1>Meals</h1>
+        </div>
+        <div class="credits">
+          <p>
+            Photo by <a href="https://unsplash.com/@vickyng">Vicky Ng</a> |
+            <a href="https://github.com/Marentxs">My Github</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="upper">
+          <p>
+            This is a real online service! A subscription service that adapts
+            your weekly meals based on your goals, activity levels and groceries
+            available. Sign up <em> now</em> to get started.
+          </p>
+          <p>We can accomplish your goals.</p>
+        </div>
+
+        <div class="middle">
+          <p>Let's do this!</p>
+          <form action="" method="get">
+            <label for="first-name">First name</label>
+            <input type="text" name="first-name" id="first-name" />
+
+            <label for="last-name">Last name</label>
+            <input type="text" name="last-name" id="last-name" />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="joe@example.com"
+            />
+
+            <label for="phone">Phone number</label>
+            <input type="number" name="phone" id="phone" />
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+
+            <label for="confirm-password">Confirm password</label>
+            <input
+              type="password"
+              name="confirm-password"
+              id="confirm-password"
+            />
+          </form>
+        </div>
+
+        <div class="bottom">
+          <button>Create Account</button>
+          <p>Already have an account? Log in</p>
+        </div>
       </div>
     </div>
   </body>
