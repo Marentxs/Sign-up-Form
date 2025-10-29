@@ -71,7 +71,7 @@ h1 {
   top: 0;
   left: 0;
   width: 100%;
-  margin-top: 12rem;
+  margin-top: 315px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -111,6 +111,7 @@ h1 {
   background-color: hsl(0, 0%, 97%);
   width: 65%;
   justify-content: center;
+  padding-bottom: 15rem;
 }
 
 .right-side p {
@@ -128,11 +129,13 @@ h1 {
 .upper p {
   max-width: 50ch;
   margin-top: 1rem;
+  line-height: 120%;
 }
 
 .middle {
   background-color: white;
   padding-left: 5rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
 }
 
 .middle p {
@@ -165,6 +168,7 @@ form {
   width: 250px;
   margin-bottom: 1rem;
   border-radius: 5px;
+  padding: 4px 8px;
 }
 
 .bottom {
