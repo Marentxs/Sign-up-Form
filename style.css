@@ -162,6 +162,15 @@ form {
 
 .form-row label {
   color: hsl(0, 0%, 40%);
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.2ch;
+}
+
+.form-row label,
+.bottom button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .form-row input {
@@ -174,16 +183,17 @@ form {
   appearance: none;
 }
 
+.form-row input:focus,
+.form-row input:active {
+  border-color: black;
+}
+
 .form-row input:user-invalid {
   border-color: rgb(160, 0, 0);
 }
 
 .form-row input:user-valid {
   border-color: rgb(0, 130, 20);
-}
-
-.form-row input:focus {
-  border-color: black;
 }
 
 .bottom {
