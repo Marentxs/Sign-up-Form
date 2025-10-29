@@ -165,11 +165,13 @@ form {
 }
 
 .form-row input {
-  width: 100%;
+  width: 120%;
   max-width: 250px;
   margin-bottom: 1rem;
   border-radius: 5px;
   padding: 4px 8px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  appearance: none;
 }
 
 .bottom {
@@ -203,4 +205,12 @@ form {
 
 .bottom a:hover {
   text-decoration: underline;
+}
+
+.form-row input:user-invalid {
+  border-color: rgb(160, 0, 0);
+}
+
+.form-row input:user-valid {
+  border-color: rgb(0, 130, 20);
 }
